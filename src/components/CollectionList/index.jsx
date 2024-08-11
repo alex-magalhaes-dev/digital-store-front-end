@@ -28,9 +28,10 @@ export default function CollectionList() {
    return (
       <div className="grid @tablet:grid-cols-3 @laptop:gap-3 gap-2 grid-cols-1">
          {
-            collectionList.map(({ tag, title, href, image }) => {
+            collectionList.map(({ tag, title, href, image }, index) => {
                return (
                   <CollectionCard
+                     key={index}
                      tag={tag}
                      title={title}
                      href={href}

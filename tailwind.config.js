@@ -35,6 +35,9 @@ export default {
         "brand-success": "#52ca76",
         "brand-warning": "#f6aa1c",
         "brand-white": "#ffffff",
+
+        "brand-yellow-default": "#FFB31F",
+        "brand-yellow-dark": "#CF8900"
       },
     },
   },

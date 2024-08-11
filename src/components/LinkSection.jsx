@@ -3,7 +3,8 @@ import ArrowIcon from '../assets/icons/long-arrow-right.svg'
 export default function LinkSection({ text = 'Ver todos', href = '#' }) {
    return (
       <a
-         className='text-brand-primary flex gap-2 items-center @laptop:text-lg text-sm hover:opacity-85 font-medium'
+         data-visible={text}
+         className="text-brand-primary flex gap-2 items-center @laptop:text-lg text-sm hover:opacity-85 font-medium data-[visible='']:hidden"
          href={href}
       >
          <span>
@@ -16,6 +17,6 @@ export default function LinkSection({ text = 'Ver todos', href = '#' }) {
             width={24}
             height={24}
          />
-      </a>
+      </a >
    )
 }

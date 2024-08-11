@@ -41,6 +41,9 @@ export default {
 
         "brand-cyan-lighter": "#D8E3F2"
       },
+      boxShadow:{
+        smooth: "0rem 0.25rem 1.5rem 0rem rgba(0, 0, 0, 0.05)"
+      }
     },
   },
   plugins: [],

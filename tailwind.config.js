@@ -37,7 +37,9 @@ export default {
         "brand-white": "#ffffff",
 
         "brand-yellow-default": "#FFB31F",
-        "brand-yellow-dark": "#CF8900"
+        "brand-yellow-dark": "#CF8900",
+
+        "brand-cyan-lighter": "#D8E3F2"
       },
     },
   },

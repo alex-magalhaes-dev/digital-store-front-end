@@ -15,6 +15,9 @@ export default {
         'title': ['var(--font-title)', 'sans-serif'],
         'body': ['var(--font-body)', 'sans-serif'],
       },
+      maxWidth: {
+        'grid': '76.5rem'
+      },
       colors: {
         "brand-dark-gray-100": "#1f1f1f",
         "brand-dark-gray-200": "#474747",

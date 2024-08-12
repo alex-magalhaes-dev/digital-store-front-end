@@ -15,6 +15,9 @@ export default {
         'title': ['var(--font-title)', 'sans-serif'],
         'body': ['var(--font-body)', 'sans-serif'],
       },
+      maxWidth: {
+        'grid': '76.5rem'
+      },
       colors: {
         "brand-dark-gray-100": "#1f1f1f",
         "brand-dark-gray-200": "#474747",
@@ -32,7 +35,15 @@ export default {
         "brand-success": "#52ca76",
         "brand-warning": "#f6aa1c",
         "brand-white": "#ffffff",
+
+        "brand-yellow-default": "#FFB31F",
+        "brand-yellow-dark": "#CF8900",
+
+        "brand-cyan-lighter": "#D8E3F2"
       },
+      boxShadow:{
+        smooth: "0rem 0.25rem 1.5rem 0rem rgba(0, 0, 0, 0.05)"
+      }
     },
   },
   plugins: [],

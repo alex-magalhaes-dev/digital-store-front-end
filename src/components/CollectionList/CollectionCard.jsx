@@ -1,13 +1,11 @@
-import CollectionTag from "./CollectionTag"
+import Tag from "../Tag"
 import Button from "../Button"
 
 export default function CollectionCard({ tag = '30% OFF', title = 'Card title', href, image }) {
    return (
       <div className="overflow-hidden rounded-lg p-5 @laptop:py-9 @laptop:px-8 bg-brand-cyan-lighter relative">
          <div className="max-w-48 flex flex-col items-start relative z-10">
-            <CollectionTag
-               text={tag}
-            />
+            <Tag text={tag}/>
             <h3 className="mt-2 @laptop:mt-3 mb-3 @laptop:mb-5 text-[2rem] font-bold text-brand-dark-gray-100">
                {title}
             </h3>

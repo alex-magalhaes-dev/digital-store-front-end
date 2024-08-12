@@ -1,8 +1,8 @@
 import Section from "../components/Section"
 import CollectionList from "../components/CollectionList"
 import CategoryList from "../components/CategoryList"
-import ProductListing from "../components/ProductListing"
 import SectionOffer from "../components/SectionOffer"
+import HomeProducts from "../components/HomeProducts"
 import Gallery from "../components/Gallery"
 
 export default function HomePage() {
@@ -30,7 +30,7 @@ export default function HomePage() {
             titleText="Produtos em alta"
             link={{ text: 'Ver todos', href: '#' }}
          >
-            <ProductListing products={[]} />
+            <HomeProducts />
          </Section>
 
          <SectionOffer />

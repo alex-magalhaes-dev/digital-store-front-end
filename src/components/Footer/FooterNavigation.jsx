@@ -12,7 +12,7 @@ export default function FooterNavigation({ title, information }) {
                information.map(({ text, href }, index) => {
                   return (
                      <Link
-                        key={information[index]}
+                        key={text}
                         className="hover:underline"
                         to={href}
                      >

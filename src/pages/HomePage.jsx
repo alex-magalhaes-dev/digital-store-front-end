@@ -3,10 +3,14 @@ import CollectionList from "../components/CollectionList"
 import CategoryList from "../components/CategoryList"
 import ProductListing from "../components/ProductListing"
 import SectionOffer from "../components/SectionOffer"
+import Gallery from "../components/Gallery"
 
 export default function HomePage() {
    return (
       <main>
+
+         <Gallery />
+
          <Section
             titleText="Coleções em destaque"
             link={{ text: '' }}

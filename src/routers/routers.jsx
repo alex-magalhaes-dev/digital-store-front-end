@@ -5,6 +5,7 @@ import Layout from '../Layout'
 import HomePage from "../pages/HomePage";
 import ProductListingPage from "../pages/ProductListingPage";
 import NotFoundPage from "../pages/NotFoundPage";
+import ProductViewPage from "../pages/ProductViewPage";
 
 export const router = createBrowserRouter([
    {
@@ -18,6 +19,9 @@ export const router = createBrowserRouter([
          }, {
             path: "/produtos",
             element: <ProductListingPage />
+         }, , {
+            path: "/produto/:id",
+            element: <ProductViewPage />
          },
       ]
    },

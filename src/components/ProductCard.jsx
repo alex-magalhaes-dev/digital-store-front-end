@@ -3,7 +3,7 @@ import Tag from '../components/Tag'
 
 export default function ProductCard({
     id,
-    image,
+    thumb,
     name,
     category,
     price,
@@ -13,7 +13,7 @@ export default function ProductCard({
     return (
         <Link
             to={`/produto/${id}`}
-            className='hover:scale-105 flex flex-col items-start gap-4'
+            className='hover:scale-105 transition-all flex flex-col items-start gap-4'
         >
             <div className='overflow-hidden h-80 relative rounded shadow-smooth'>
                 {
@@ -23,7 +23,7 @@ export default function ProductCard({
                 }
                 <img
                     className='object-cover h-full'
-                    src={image}
+                    src={thumb}
                     alt={name}
                 />
             </div>

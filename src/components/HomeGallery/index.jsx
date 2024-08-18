@@ -7,7 +7,7 @@ import { Swiper } from "swiper/react";
 import { Autoplay, Pagination } from 'swiper/modules';
 import 'swiper/css'
 
-export default function Gallery() {
+export default function HomeGallery() {
 
    //Add a state that will trigger a re-render later
    const [_, setInit] = useState(false)

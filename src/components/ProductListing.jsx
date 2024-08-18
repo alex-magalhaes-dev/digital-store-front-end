@@ -8,12 +8,12 @@ export default function ProductListing({ products, className }) {
    return (
       <div className={mergedClass}>
          {
-            products.map(({ category, name, image, price, priceDiscount = '', offer }, index) => {
+            products.map(({ id, category, name, thumb, price, priceDiscount = '', offer }, index) => {
                return (
                   <ProductCard
-                     key={products[index]}
-                     id={index}
-                     image={image}
+                     key={index}
+                     id={id}
+                     thumb={thumb}
                      category={category}
                      name={name}
                      price={price}

@@ -1,9 +1,9 @@
 import ProductListing from "./ProductListing";
 import useFetchProducts from "../hooks/useFetchProducts";
 
-export default function HomeProducts() {
+export default function ProductsViewRelate() {
 
-   const {products} = useFetchProducts({ quantity: 8 })
+   const { products } = useFetchProducts({ quantity: 4 })
 
    return (
       <ProductListing

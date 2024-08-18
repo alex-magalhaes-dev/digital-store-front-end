@@ -3,13 +3,13 @@ import CollectionList from "../components/CollectionList"
 import CategoryList from "../components/CategoryList"
 import SectionOffer from "../components/SectionOffer"
 import HomeProducts from "../components/HomeProducts"
-import Gallery from "../components/Gallery"
+import HomeGallery from "../components/HomeGallery"
 
 export default function HomePage() {
    return (
       <main>
 
-         <Gallery />
+         <HomeGallery />
 
          <Section
             titleText="Coleções em destaque"
@@ -28,7 +28,7 @@ export default function HomePage() {
 
          <Section
             titleText="Produtos em alta"
-            link={{ text: 'Ver todos', href: '#' }}
+            link={{ text: 'Ver todos', href: '/produtos' }}
          >
             <HomeProducts />
          </Section>
